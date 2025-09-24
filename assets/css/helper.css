@@ -1,0 +1,39 @@
+ul,ol{
+	list-style: none;
+}
+
+.heading-pri{
+	color: #010101;
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+.heading-sec{
+	color: #313841;
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.hero-section .inspire p{
+	color: #555;
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 40px;
+}
+
+.hero-section .media-list li{
+	display: inline-block;
+	margin-right: 35px;
+}
+
+.hero-section .media-list a{
+	font-size: 42px;
+	color: #010101;
+	
+}
+
+.w-100{
+	width: 100%;
+}

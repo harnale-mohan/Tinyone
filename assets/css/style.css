@@ -1,0 +1,206 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	 font-family: "Lato", sans-serif;
+}
+
+body a{
+	 font-family: "Lato", sans-serif;
+}
+
+.main-section{
+	background-color: #fcdb00;
+	padding: 60px 0 105px;
+}
+
+.main-section .navbar-default{
+	background: none;
+	border: none;
+	box-shadow: none;
+	margin-bottom: 60px;
+}
+.main-section .navbar-default .navbar-brand{
+	padding: 0;
+}
+
+.main-section .navbar-default .navbar-nav a{
+	color: #010101;
+	font-weight: bold;
+	font-size: 22px;
+	padding: 10px;
+	margin-left: 45px;
+}
+
+.main-section .hero-section .ipad{
+	margin-left: 20%;
+}
+
+.features-section{
+	padding: 120px 0 75px;
+}
+
+.features-section .features-info h3{
+	margin-bottom: 70px;
+}
+
+.features-section .features-thumbnail{
+	display: table;
+	clear: both;
+	width: 100%;
+	margin-bottom: 90px;
+}
+
+.features-section .features-thumbnail i{
+	font-size: 50px;
+	color: #010101;
+}
+
+.thumbnail-info h3{
+	font-size: 22px;
+	color: #010101;
+	font-weight: 400;
+	text-transform: capitalize;
+	margin: 0 0 15px;
+}
+
+.thumbnail-info p{
+	font-size: 16px;
+	color: #898989;
+	font-weight: 400;
+}
+
+								/*------features section end-----------*/
+.contact-section{
+	background: #010101;
+	padding: 90px 0 135px;
+}
+
+.contact-section .footer-heading h2{
+	color: #fcdb00;
+}
+
+.contact-section .footer-heading h3{
+	color: #898989;
+	margin-bottom: 35px;
+}
+
+.contact-section .contact-form{
+	margin-bottom: 75px;
+}
+
+.contact-section .contact-form .submit{
+	background-color: #fcdb00;
+	border: 2px solid #fcdb00;
+	text-transform: uppercase;
+	color: #010101;
+	font-size: 16px;
+	font-weight: 800;
+	transition: all 0.5s linear;
+	
+}
+
+.contact-section .contact-form .submit:hover{
+	color: #fcdb00;
+	background-color: #010101;
+}
+
+.contact-section .social-list li{
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.contact-section .social-list li a{
+	color: #fcdb00;
+}
+
+.contact-section .form-group{
+	margin-bottom: 75px;
+}
+
+.contact-section .social-list{
+	margin-bottom: 130px;
+}
+
+.contact-section .footer-list li, .contact-section .footer-list a{
+	color: #fff;
+	font-size: 16px;
+}
+
+
+
+@media all and (max-width:768px){
+	.main-section .navbar-default .navbar-toggle{
+		border: none;
+	}
+	
+	.main-section .navbar-default .navbar-collapse{
+		border: none;
+		box-shadow: none;
+	}
+	
+	.navbar-default .navbar-toggle:focus,
+	.navbar-default .navbar-toggle:hover{
+		background-color: transparent;
+	}
+	
+	.main-section .hero-section .ipad{
+		margin: 30px 0 0;
+	}
+	
+	.main-section .hero-section .inspire{
+		text-align: center;
+	}
+	
+	.main-section .hero-section .ipad img{
+		margin: 0 auto;
+	}
+	
+	/*--------------mainsection end here-----------*/
+	
+	.features-section{
+		padding: 70px 0;
+	}
+	
+	.features-section .features-info h3{
+		margin-bottom: 40px;
+	}
+	
+	.features-section .features-thumbnail {
+		margin-bottom: 40px;
+	}
+	
+	.features-section .features-thumbnail{
+		text-align: center;
+	}
+	/*---------features-section end here-----------*/
+	
+	.contact-section {
+		padding: 70px 0;
+	}
+	
+	.contact-section .contact-form{
+		margin-bottom: 20px;
+	}
+	
+	.contact-section .form-group {
+		margin-bottom: 20px;
+	}
+	
+	.contact-section .contact-form .submit{
+		width: auto;
+		margin-bottom: 30px;
+	}
+	
+	.contact-section .social-list {
+		margin-bottom: 10px;
+	}
+	
+	.contact-section .footer-list{
+		text-align: center;
+	}
+}
